@@ -21,7 +21,7 @@ Create a `docker-compose.yml` file anywhere on your machine and paste the follow
 ```yaml
 services:
   app:
-    image: alpha2001/interview-analyzer:latest
+    image: alpha2001/interview-analyzer:2.0
     container_name: interview_app
     ports:
       - "8090:80"
